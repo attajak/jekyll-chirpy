@@ -1,9 +1,11 @@
 # Bundler cache
 .bundle
 vendor
+bin
 Gemfile.lock
 
 # Jekyll cache
+.sass-cache
 .jekyll-cache
 .jekyll-metadata
 _site
@@ -14,8 +16,11 @@ _site
 # NPM dependencies
 node_modules
 package-lock.json
+jsconfig.json
+.env
+.env.*
 
-# IDE configurations
+# IDE configuration
 .idea
 .vscode/*
 !.vscode/settings.json
